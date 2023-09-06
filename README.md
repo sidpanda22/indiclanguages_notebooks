@@ -28,3 +28,11 @@ languages = { "hindi":"hi",
              'awadhi':'awa',
              'konkani':'gom',
              }
+Data format:
+    Dict[lang_id]
+        Dataset({
+            features: ['id', 'url', 'title', 'text'],
+            num_rows: 160068
+        })
+            Each dataset has each row as a dict:
+                {'id':, 'url':'', 'title':'', 'text':''}
